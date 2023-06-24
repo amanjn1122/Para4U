@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(45,45,45);
+}
+
+div{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: rgb(189, 235, 235);
+    /* box-sizing: border-box; */
+    padding: 100px 50px;
+    
+}
+
+
+div h1{
+    background-color: rgb(189, 235, 235);
+    text-transform: uppercase;
+    color: rgb(148, 53, 53);
+    width: 100%;
+    /* padding-left: 10%;
+    display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+div>div{
+    width: 100%;
+    min-height: 0vh;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.paras{
+    width: 100%;
+    background-color: rgb(35, 182, 174);
+    color: rgb(21,21,21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.05s;
+    /* animation: hov 0.5s infinite alternate; */
+}
+/* @keyframes hov{
+    to {translateY: -5px;
+        scale: 1.05;} 
+} */
+.paras:hover{
+    transform: translateY(-5px);
+    scale: 1.05;
+}
+
+#wordlength{
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    margin: 20px ;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 162, 162);
+
+}
+
+button{
+    background-color: green; /*rgb(16, 102, 102);*/
+    color: aliceblue;
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    
+    /* animation: key 4s infinite ; */
+}
+
+/* @keyframes key {
+
+    transform {translateY:(20px);}
+
+    /* 0%   {top: 0px; left: 0px; background: red;}
+    33%  {top: 0px; left: 100px; background: blue;}
+    50%  {top: 100px; left: 100px; background: yellow;}
+    66%  {top: 100px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;} */
+  /* } */
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(34, 180, 34);
+}
+
+
+footer>div{
+    width: 100%;
+    min-height: 0;
+    margin: 0;
+    background-color: rgb(45,45,45);
+    /* box-sizing: border-box; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
