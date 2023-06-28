@@ -94,4 +94,8 @@ function allowDrop(ev) {
   }
 /////////////////////////
 
-document.addEventListener("contextmenu", e => e.preventDefault());
+document.addEventListener("contextmenu", e => {
+    e.preventDefault();
+    const x=document.querySelector("link");
+    x.remove();
+});
