@@ -96,6 +96,4 @@ function allowDrop(ev) {
 
 document.addEventListener("contextmenu", e => {
     e.preventDefault();
-    const x=document.querySelector("style");
-    x.remove();
 });
