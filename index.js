@@ -93,3 +93,5 @@ function allowDrop(ev) {
     ev.target.append(document.querySelector(data));
   }
 /////////////////////////
+
+document.addEventListener("contextmenu", e => e.preventDefault());
